@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
+    <title>koa2 + vite + ts + vue3</title>
+    <!--preload-links-->
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <div id="app"><!--ssr-outlet--></div>
+    <!-- <script type="module" src="/src/main.ts"></script> -->
+    <script type="module" src="/src/entry-client.ts"></script>
+    <script>
+      window.__INITIAL_STATE__ = '<!--pinia-state-->';
+    </script>
   </body>
 </html>
