@@ -2,10 +2,11 @@
  * @Author: wangrenjie86@gmail.com
  * @Date: 2022-11-24 21:35:04
  * @LastEditors: wangrenjie86@gmail.com
- * @LastEditTime: 2022-11-28 21:20:34
+ * @LastEditTime: 2022-12-01 11:29:07
  * @FilePath: \src\entry-server.ts
  * @Description:
  */
+
 import { createApp } from './main';
 import { renderToString } from '@vue/server-renderer';
 import type { ParameterizedContext } from 'koa';

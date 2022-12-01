@@ -1,7 +1,6 @@
 {
   "name": "koa2-ssr-vue3-ts-pinia",
   "private": true,
-  "type": "module",
   "version": "0.0.0",
   "scripts": {
     "dev": "node server-dev.js",

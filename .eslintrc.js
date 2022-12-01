@@ -1,11 +1,3 @@
-/**
- * @Author: wangrenjie86@gmail.com
- * @Date: 2022-11-24 10:39:39
- * @LastEditors: wangrenjie86@gmail.com
- * @LastEditTime: 2022-11-30 17:56:40
- * @FilePath: \.eslintrc.js
- * @Description:
- */
 module.exports = {
   parser: 'vue-eslint-parser',
 
@@ -14,15 +6,15 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
 
   extends: [
     'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'plugin:prettier/recommended',
+    'plugin:prettier/recommended'
   ],
 
   rules: {
@@ -42,18 +34,18 @@ module.exports = {
       'error',
       {
         argsIgnorePattern: '^h$',
-        varsIgnorePattern: '^h$',
-      },
+        varsIgnorePattern: '^h$'
+      }
     ],
     'no-unused-vars': [
       'error',
       {
         argsIgnorePattern: '^h$',
-        varsIgnorePattern: '^h$',
-      },
+        varsIgnorePattern: '^h$'
+      }
     ],
     'space-before-function-paren': 'off',
     quotes: ['error', 'single'],
-    'comma-dangle': ['error', 'never'],
-  },
+    'comma-dangle': ['error', 'never']
+  }
 };

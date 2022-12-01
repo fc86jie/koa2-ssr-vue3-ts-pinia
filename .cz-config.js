@@ -2,7 +2,7 @@
  * @Author: wangrenjie86@gmail.com
  * @Date: 2022-11-24 10:43:52
  * @LastEditors: wangrenjie86@gmail.com
- * @LastEditTime: 2022-11-30 17:56:30
+ * @LastEditTime: 2022-12-01 11:28:56
  * @FilePath: \.cz-config.js
  * @Description:
  */
@@ -24,7 +24,7 @@ module.exports = {
     { value: 'test', name: 'test:     增加测试' },
     { value: 'chore', name: 'chore:    构建过程或辅助工具的变动(更改配置文件)' },
     { value: 'revert', name: 'revert:   回退' },
-    { value: 'build', name: 'build:    打包' },
+    { value: 'build', name: 'build:    打包' }
   ],
   // override the messages, defaults are as follows
   messages: {
@@ -33,9 +33,9 @@ module.exports = {
     subject: '请简要描述提交 message (必填):',
     body: '请输入详细描述(可选，待优化去除，跳过即可):',
     footer: '请输入要关闭的issue(待优化去除，跳过即可):',
-    confirmCommit: '确认使用以上信息提交？(y/n/e/h)',
+    confirmCommit: '确认使用以上信息提交？(y/n/e/h)'
   },
   allowCustomScopes: true,
   skipQuestions: ['body', 'footer'],
-  subjectLimit: 72,
+  subjectLimit: 72
 };
