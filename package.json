@@ -23,6 +23,12 @@
       "path": "node_modules/cz-customizable"
     }
   },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "pnpm run eslint",
+      "pnpm run prettier"
+    ]
+  },
   "dependencies": {
     "@koa/router": "^12.0.0",
     "@vue/server-renderer": "^3.2.45",
